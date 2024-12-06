@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    font-family: 'Retro Gaming';
+
+}
+
+.navbar {
+    .navbar-brand {
+        padding: 5px;
+    }
+
+}
+
+.main {
+    width: 100%;
+    height: 90vh;
+
+    background-image: url("../assets/images/image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(50px);
+
+    color: white;
+}
+
+.footer {
+
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    direction: column;
+    justify-content: start;
+    align-items: center;
+    column-gap: 30%;
+
+}
+
+#index-title {
+    line-height: 0;
+    margin-left: 10%;
+}
+
+#index-text-first {
+    color: rgb(0, 100, 200);
+    font-size: 4rem;
+}
+
+#index-text-theme {
+    color: rgb(0, 100, 200);
+    font-size: 4rem;
+    text-align: center
+}
+
+.text-welcome {
+
+    background-color: black;
+    border-radius: 20px;
+    backdrop-filter: blur(150px);
+    margin-top: -15px;
+
+}
+
+@font-face {
+    font-family: 'Retro Gaming';
+    src: url('assets/fonts/Retro Gaming.ttf') format('ttf')
+}
+
+
+#contact-form {
+
+    background-color: azure;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid grey;
+
+}
+
+.container-fluid {
+
+    overflow-y: auto;
+}
